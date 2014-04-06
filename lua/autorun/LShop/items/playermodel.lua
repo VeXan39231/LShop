@@ -1,6 +1,6 @@
 LShop.system.ItemRegister( {
 	ID = "model_kliner",
-	Name = "Kliner",
+	Name = "Kleiner",
 	Category = "Player Model",
 	Price = 100,
 	CanBuy = true,
@@ -8,7 +8,7 @@ LShop.system.ItemRegister( {
 	CanEquip = true,
 	UseTillDeath = false,
 	UnEquipped_IS_NotRemove = true,
-	Desc = "This is Doctor Kliner model!",
+	Desc = "Doctor Kleiner from Half-Life 2!",
 	Model = "models/player/kleiner.mdl",
 	Buyed = function( item, ply )
 		if ( ply:GetNWString("LShop_Oldmodel") == "" ) then
@@ -40,7 +40,7 @@ LShop.system.ItemRegister( {
 	CanEquip = true,
 	UseTillDeath = false,
 	UnEquipped_IS_NotRemove = true,
-	Desc = "This is Alyx model!",
+	Desc = "Alyx from Half-Life 2!",
 	Model = "models/player/alyx.mdl",
 	Buyed = function( item, ply )
 		if ( ply:GetNWString("LShop_Oldmodel") == "" ) then
@@ -72,7 +72,7 @@ LShop.system.ItemRegister( {
 	CanEquip = true,
 	UseTillDeath = false,
 	UnEquipped_IS_NotRemove = true,
-	Desc = "This is Breen model!",
+	Desc = "Breen from Half-Life 2!",
 	Model = "models/player/breen.mdl",
 	Buyed = function( item, ply )
 		if ( ply:GetNWString("LShop_Oldmodel") == "" ) then

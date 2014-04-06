@@ -1,7 +1,7 @@
 LShop.system.ItemRegister( {
 	ID = "ammo_smg",
 	Name = "SMG Ammo",
-	Category = "Ammonation",
+	Category = "Ammunition",
 	Price = 30,
 	Ammo_ID = "smg1",
 	Type = "ammo",
@@ -31,7 +31,7 @@ LShop.system.ItemRegister( {
 LShop.system.ItemRegister( {
 	ID = "ammo_pistol",
 	Name = "Pistol Ammo",
-	Category = "Ammonation",
+	Category = "Ammunition",
 	Price = 30,
 	Ammo_ID = "smg1",
 	Type = "ammo",
@@ -61,7 +61,7 @@ LShop.system.ItemRegister( {
 LShop.system.ItemRegister( {
 	ID = "ammo_ar2",
 	Name = "AR2 Ammo",
-	Category = "Ammonation",
+	Category = "Ammunition",
 	Price = 30,
 	Ammo_ID = "ar2",
 	Type = "ammo",
